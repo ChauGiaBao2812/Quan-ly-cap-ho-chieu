@@ -1,0 +1,41 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+
+    <link rel="stylesheet" href="~/css/Layout.css" />
+    <link rel="stylesheet" href="~/css/Header.css" />
+</head>
+<body>
+    <div class="header">
+        <img src="~/Img/bg-head-new.png" alt="Background" class="bg-head">
+        <img src="~/Img/Thiết kế chưa có tên.png" class="logo">
+
+        <nav class="navbar">
+            <div class="nav-links">
+                <a href="#" class="nav-item">Home</a>
+                <a href="#" class="nav-item">Popular Destinations</a>
+            </div>
+            <button class="login-btn">Log out</button>
+        </nav>
+    </div>
+
+    <div class="main">
+        <div class="Info">
+            @RenderBody()
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>© 2025</p>
+    </div>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
