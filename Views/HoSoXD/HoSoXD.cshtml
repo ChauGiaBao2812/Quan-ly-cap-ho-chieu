@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "Danh Sách Hồ Sơ";
+    Layout = null;
+}
+
+<link rel="stylesheet" type="text/css" href="~/css/HoSoXD.css" />        
+<div class="table-container">
+    <div class="header">
+        <h2>Xét duyệt hồ sơ cấp hộ chiếu</h2>
+        <a href="@Url.Action("Logout", "Account")" class="btn logout-btn">Đăng xuất</a>
+    </div>
+    <table class="table table-striped mt-3">
+        <thead>
+            <tr>
+                <th>Mã hồ sơ</th>
+                <th>Tình trạng</th>
+                <th>Ngày nộp</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.MaHoSo</td>
+                    <td>@item.TinhTrang</td>
+                    <td>@item.NgayNop.ToString("dd/MM/yyyy")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
