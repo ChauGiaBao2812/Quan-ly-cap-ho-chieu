@@ -1,0 +1,105 @@
+﻿@{
+    ViewBag.Title = "Xác thực hồ sơ";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .info-boxes {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .info-box {
+        width: 48%;
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    .note-box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+        .note-box textarea {
+            width: 100%;
+            height: 100px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #999;
+        }
+
+    .button-group {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+        .button-group button {
+            padding: 10px 30px;
+            font-size: 1em;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+    .invalid-btn {
+        background-color: #fcf0c7;
+    }
+
+    .valid-btn {
+        background-color: #fce1ac;
+    }
+
+    form {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 10px;
+    }
+
+        .form-group label {
+            font-weight: bold;
+        }
+
+        .form-group input, .form-group textarea, .form-group select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1em;
+        }
+
+</style>
+
+<div class="info-boxes">
+    <div class="info-box">
+        <h3>Thông tin từ người dùng</h3>
+    </div>
+    <div class="info-box">
+        <h3>Thông tin lấy từ Resident Data</h3>
+    </div>
+</div>
+
+<div class="note-box">
+    <textarea placeholder="Ghi chú"></textarea>
+</div>
+
+<div class="button-group">
+    <button class="invalid-btn">Ko hợp lệ</button>
+    <button class="valid-btn">Hợp lệ</button>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
