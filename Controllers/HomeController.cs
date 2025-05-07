@@ -14,5 +14,13 @@ namespace Project.Controllers
         {
             return View();
         }
+        public IActionResult ProfileVerification()
+        {
+            return View();
+        }
+        public IActionResult ProfileAuthentication()
+        {
+            return View();
+        }
     }
 }
