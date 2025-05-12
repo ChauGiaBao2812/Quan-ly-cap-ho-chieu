@@ -1,0 +1,27 @@
+﻿@model IEnumerable<HoSo>
+
+@{
+    ViewBag.Title = "Danh sách hồ sơ";
+}
+
+<div class="container">
+    <table class="table table-bordered">
+        <thead class="thead-light">
+            <tr>
+                <th>Mã hồ sơ</th>
+                <th>Tình trạng</th>
+                <th>Ngày nộp</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td><a href="@Url.Action("Detail", new { id = item.MaHoSo })">@item.MaHoSo</a></td>
+                    <td>@item.HienThiTinhTrang()</td>
+                    <td>@item.NgayNop.ToString("dd/MM/yyyy")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

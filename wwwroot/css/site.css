@@ -20,3 +20,32 @@ html {
 body {
   margin-bottom: 60px;
 }*/
+
+.table {
+    margin-top: 20px;
+}
+
+.btn {
+    margin-right: 10px;
+}
+
+thead {
+    background-color: #f8f9fa;
+}
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.card-header {
+    font-weight: bold;
+}
+
+dt {
+    font-weight: normal;
+    color: #6c757d;
+}
+
+dd {
+    margin-bottom: 10px;
+}
