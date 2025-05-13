@@ -1,0 +1,98 @@
+﻿@model PersonInfo
+
+@{
+    ViewBag.Title = "Thông Tin Cá Nhân";
+}
+
+<h2>Thông Tin Cá Nhân</h2>
+
+<div class="profile-container">
+    <div class="profile-image">
+        <img src="~/Content/images/default-avatar.jpg" alt="Ảnh đại diện" class="avatar" />
+    </div>
+
+    <div class="info-display">
+        <div class="info-row">
+            <label class="info-label">Họ tên:</label>
+            <div class="info-value">@Model.HoTen</div>
+        </div>
+
+        <div class="info-row">
+            <label class="info-label">Ngày sinh:</label>
+            <div class="info-value">@Model.NgaySinh.ToString("dd/MM/yyyy")</div>
+        </div>
+
+        <div class="info-row">
+            <label class="info-label">Chức vụ:</label>
+            <div class="info-value">@Model.ChucVu</div>
+        </div>
+
+        <div class="info-row">
+            <label class="info-label">Quê quán:</label>
+            <div class="info-value">@Model.QueQuan</div>
+        </div>
+
+        <div class="info-row">
+            <label class="info-label">Địa chỉ:</label>
+            <div class="info-value">@Model.DiaChi</div>
+        </div>
+
+        <div class="info-row">
+            <label class="info-label">Số điện thoại:</label>
+            <div class="info-value">@Model.SoDienThoai</div>
+        </div>
+
+        <div class="info-row">
+            <label class="info-label">Email:</label>
+            <div class="info-value">@Model.Email</div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .profile-container {
+        display: flex;
+        gap: 30px;
+        margin: 20px 0;
+    }
+
+    .profile-image {
+        width: 200px;
+        height: 200px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .avatar {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+    }
+
+    .info-display {
+        flex: 1;
+    }
+
+    .info-row {
+        display: flex;
+        margin-bottom: 15px;
+        align-items: center;
+    }
+
+    .info-label {
+        font-weight: bold;
+        width: 150px;
+        min-width: 150px;
+    }
+
+    .info-value {
+        padding: 5px 10px;
+        background-color: #f5f5f5;
+        border-radius: 4px;
+        flex-grow: 1;
+    }
+</style>
