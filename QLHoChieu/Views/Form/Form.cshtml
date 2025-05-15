@@ -1,8 +1,8 @@
-﻿@model QLHoChieu.Models.Form
+﻿@model QLHoChieu.Models.ViewModels.PassportData
 
-@{
-    Layout = "~/Views/Shared/_Layout.cshtml";
-}
+@* @{ *@
+@*     Layout = "~/Views/Shared/_Layout.cshtml"; *@
+@* } *@
 
 <link rel="stylesheet" href="~/css/Form.css" />
 
@@ -10,25 +10,25 @@
     <h2 class="title">THÔNG TIN CƠ BẢN</h2>
     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
     <div class="form-group">
-        <label asp-for="Name" class="control-label">Họ và tên</label>
-        <input asp-for="Name" class="form-control" />
-        <span asp-validation-for="Name" class="text-danger"></span>
+        <label asp-for="HoTen" class="control-label">Họ và tên</label>
+        <input asp-for="HoTen" class="form-control" />
+        <span asp-validation-for="HoTen" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="Gender" class="control-label">Giới tính</label><br />
-        <input type="radio" asp-for="Gender" name="Gender" value="Nam" /> Nam
-        <input type="radio" asp-for="Gender" name="Gender" value="Nữ" /> Nữ
-        <span asp-validation-for="Gender" class="text-danger"></span>
+        <label asp-for="GioiTinh" class="control-label">Giới tính</label><br />
+        <input type="radio" asp-for="GioiTinh" name="Gender" value="Nam" /> Nam
+        <input type="radio" asp-for="GioiTinh" name="Gender" value="Nữ" /> Nữ
+        <span asp-validation-for="GioiTinh" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="Birthdate" class="control-label">Ngày sinh</label>
-        <input asp-for="Birthdate" class="form-control" />
-        <span asp-validation-for="Birthdate" class="text-danger"></span>
+        <label asp-for="NgaySinh" class="control-label">Ngày sinh</label>
+        <input asp-for="NgaySinh" class="form-control" />
+        <span asp-validation-for="NgaySinh" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="Birthplace" class="control-label">Nơi sinh</label>
-        <input asp-for="Birthplace" class="form-control" />
-        <span asp-validation-for="Birthplace" class="text-danger"></span>
+        <label asp-for="NoiSinh" class="control-label">Nơi sinh</label>
+        <input asp-for="NoiSinh" class="form-control" />
+        <span asp-validation-for="NoiSinh" class="text-danger"></span>
     </div>
     <div class="form-group">
         <label asp-for="CCCD" class="control-label">CCCD</label>
@@ -36,18 +36,18 @@
         <span asp-validation-for="CCCD" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="CCCD_Date" class="control-label">Ngày cấp</label>
-        <input asp-for="CCCD_Date" class="form-control" />
-        <span asp-validation-for="CCCD_Date" class="text-danger"></span>
+        <label asp-for="NgayCap" class="control-label">Ngày cấp</label>
+        <input asp-for="NgayCap" class="form-control" />
+        <span asp-validation-for="NgayCap" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="CCCD_Place" class="control-label">Nơi cấp</label>
-        <input asp-for="CCCD_Place" class="form-control" />
-        <span asp-validation-for="CCCD_Place" class="text-danger"></span>
+        <label asp-for="NoiCap" class="control-label">Nơi cấp</label>
+        <input asp-for="NoiCap" class="form-control" />
+        <span asp-validation-for="NoiCap" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="CCCD_Ethnicity" class="control-label">Dân tộc</label>
-        <select asp-for="CCCD_Ethnicity" class="form-control">
+        <label asp-for="DanToc" class="control-label">Dân tộc</label>
+        <select asp-for="DanToc" class="form-control">
             <option value="">-- Chọn dân tộc --</option>
             <option value="Ba Na">Ba Na</option>
             <option value="Bố Y">Bố Y</option>
@@ -104,11 +104,11 @@
             <option value="Xơ Đăng">Xơ Đăng</option>
             <option value="Xtiêng">Xtiêng</option>
         </select>
-        <span asp-validation-for="CCCD_Ethnicity" class="text-danger"></span>
+        <span asp-validation-for="DanToc" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="Religion" class="control-label">Tôn giáo</label>
-        <select asp-for="Religion" class="form-control">
+        <label asp-for="TonGiao" class="control-label">Tôn giáo</label>
+        <select asp-for="TonGiao" class="form-control">
             <option value="">-- Chọn tôn giáo --</option>
             <option value="Phật giáo">Phật giáo</option>
             <option value="Công giáo">Công giáo</option>
@@ -127,25 +127,25 @@
             <option value="Phật giáo Hiếu Nghĩa Tà Lơn (Cấp đăng ký hoạt động)">Phật giáo Hiếu Nghĩa Tà Lơn (Cấp đăng ký hoạt động)</option>
             <option value="Giáo hội Cơ đốc Phục lâm Việt Nam">Giáo hội Cơ đốc Phục lâm Việt Nam</option>
         </select>
-        <span asp-validation-for="Religion" class="text-danger"></span>
+        <span asp-validation-for="TonGiao" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="Phone" class="control-label">Số điện thoại</label>
-        <input asp-for="Phone" class="form-control" />
-        <span asp-validation-for="Phone" class="text-danger"></span>
+        <label asp-for="SDT" class="control-label">Số điện thoại</label>
+        <input asp-for="SDT" class="form-control" />
+        <span asp-validation-for="SDT" class="text-danger"></span>
     </div>
-    <div class="form-group">
-        <label asp-for="Email" class="control-label">Email</label>
-        <input asp-for="Email" class="form-control" />
-        <span asp-validation-for="Email" class="text-danger"></span>
-    </div>
+    @* <div class="form-group"> *@
+    @*     <label asp-for="Email" class="control-label">Email</label> *@
+    @*     <input asp-for="Email" class="form-control" /> *@
+    @*     <span asp-validation-for="Email" class="text-danger"></span> *@
+    @* </div> *@
     <hr />
 
     <h2 class="title">ĐỊA CHỈ THƯỜNG TRÚ</h2>
     <h3>(ghi theo sổ Hộ Khẩu)</h3>
     <div class="form-group">
-        <label asp-for="Province" class="control-label">Tỉnh/Thành</label>
-        <select asp-for="Province" class="form-control" id="Province">
+        <label asp-for="thtTinhThanh" class="control-label">Tỉnh/Thành</label>
+        <select asp-for="thtTinhThanh" class="form-control" id="Province">
             <option value="">-- Chọn Tỉnh/Thành --</option>
             <option value="HAG">Hà Giang</option>
             <option value="CBA">Cao Bằng</option>
@@ -211,32 +211,32 @@
             <option value="BLI">Bạc Liêu</option>
             <option value="CMA">Cà Mau</option>
         </select>
-        <span asp-validation-for="Province" class="text-danger"></span>
+        <span asp-validation-for="thtTinhThanh" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="District" class="control-label">Quận/Huyện</label>
-        <select asp-for="District" class="form-control" id="District">
+        <label asp-for="thtQuanHuyen" class="control-label">Quận/Huyện</label>
+        <select asp-for="thtQuanHuyen" class="form-control" id="District">
             <option value="">-- Chọn Quận/Huyện --</option>
         </select>
-        <span asp-validation-for="District" class="text-danger"></span>
+        <span asp-validation-for="thtQuanHuyen" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="Commune_Ward" class="control-label">Phường/Xã</label>
-        <input asp-for="Commune_Ward" class="form-control" />
-        <span asp-validation-for="Commune_Ward" class="text-danger"></span>
+        <label asp-for="thtPhuongXa" class="control-label">Phường/Xã</label>
+        <input asp-for="thtPhuongXa" class="form-control" />
+        <span asp-validation-for="thtPhuongXa" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="House_Number" class="control-label">Số nhà, Đường</label>
-        <input asp-for="House_Number" class="form-control" />
-        <span asp-validation-for="House_Number" class="text-danger"></span>
+        <label asp-for="thtSoNhaDuong" class="control-label">Số nhà, Đường</label>
+        <input asp-for="thtSoNhaDuong" class="form-control" />
+        <span asp-validation-for="thtSoNhaDuong" class="text-danger"></span>
     </div>
     <hr />
 
     <h2 class="title">ĐỊA CHỈ TẠM TRÚ</h2>
     <h3>(ghi theo sổ Tạm Trú)</h3>
     <div class="form-group">
-        <label asp-for="Province1" class="control-label">Tỉnh/Thành</label>
-        <select asp-for="Province" class="form-control">
+        <label asp-for="ttTinhThanh" class="control-label">Tỉnh/Thành</label>
+        <select asp-for="ttTinhThanh" class="form-control">
             <option value="">-- Chọn Tỉnh/Thành --</option>
             <option value="HAG">Hà Giang</option>
             <option value="CBA">Cao Bằng</option>
@@ -302,79 +302,80 @@
             <option value="BLI">Bạc Liêu</option>
             <option value="CMA">Cà Mau</option>
         </select>
-        <span asp-validation-for="Province1" class="text-danger"></span>
+        <span asp-validation-for="ttTinhThanh" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="District1" class="control-label">Quận/Huyện</label>
-        <input asp-for="District1" class="form-control" />
-        <span asp-validation-for="District1" class="text-danger"></span>
+        <label asp-for="ttQuanHuyen" class="control-label">Quận/Huyện</label>
+        <input asp-for="ttQuanHuyen" class="form-control" />
+        <span asp-validation-for="ttQuanHuyen" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="Commune_Ward1" class="control-label">Phường/Xã</label>
-        <input asp-for="Commune_Ward1" class="form-control" />
-        <span asp-validation-for="Commune_Ward1" class="text-danger"></span>
+        <label asp-for="ttPhuongXa" class="control-label">Phường/Xã</label>
+        <input asp-for="ttPhuongXa" class="form-control" />
+        <span asp-validation-for="ttPhuongXa" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="House_Number1" class="control-label">Số nhà, Đường</label>
-        <input asp-for="House_Number1" class="form-control" />
-        <span asp-validation-for="House_Number1" class="text-danger"></span>
+        <label asp-for="ttSoNhaDuong" class="control-label">Số nhà, Đường</label>
+        <input asp-for="ttSoNhaDuong" class="form-control" />
+        <span asp-validation-for="ttSoNhaDuong" class="text-danger"></span>
     </div>
     <hr />
 
     <h2 class="title">VIỆC LÀM</h2>
     <div class="form-group">
-        <label asp-for="Profession" class="control-label">Nghề nghiệp</label>
-        <input asp-for="Profession" class="form-control" />
-        <span asp-validation-for="Profession" class="text-danger"></span>
+        <label asp-for="NgheNghiep" class="control-label">Nghề nghiệp</label>
+        <input asp-for="NgheNghiep" class="form-control" />
+        <span asp-validation-for="NgheNghiep" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="Agency" class="control-label">Cơ quan</label>
-        <input asp-for="Agency" class="form-control" />
-        <span asp-validation-for="Agency" class="text-danger"></span>
+        <label asp-for="NgheNghiep" class="control-label">Cơ quan</label>
+        <input asp-for="NgheNghiep" class="form-control" />
+        <span asp-validation-for="NgheNghiep" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="Agency_Address" class="control-label">Địa chỉ cơ quan</label>
-        <input asp-for="Agency_Address" class="form-control" />
-        <span asp-validation-for="Agency_Address" class="text-danger"></span>
+        <label asp-for="NgheNghiep" class="control-label">Địa chỉ cơ quan</label>
+        <input asp-for="NgheNghiep" class="form-control" />
+        <span asp-validation-for="NgheNghiep" class="text-danger"></span>
     </div>
     <hr />
 
+
     <h2 class="title">THÔNG TIN GIA ĐÌNH</h2>
     <div class="form-group">
-        <label asp-for="Father_Name" class="control-label">Họ tên cha</label>
-        <input asp-for="Father_Name" class="form-control" />
-        <span asp-validation-for="Father_Name" class="text-danger"></span>
+        <label asp-for="HoTenCha" class="control-label">Họ tên cha</label>
+        <input asp-for="HoTenCha" class="form-control" />
+        <span asp-validation-for="HoTenCha" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="Father_Birthdate" class="control-label">Ngày sinh</label>
-        <input asp-for="Father_Birthdate" class="form-control" />
-        <span asp-validation-for="Father_Birthdate" class="text-danger"></span>
+        <label asp-for="NgaySinhCha" class="control-label">Ngày sinh</label>
+        <input asp-for="NgaySinhCha" class="form-control" />
+        <span asp-validation-for="NgaySinhCha" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="Mother_Name" class="control-label">Họ tên mẹ</label>
-        <input asp-for="Mother_Name" class="form-control" />
-        <span asp-validation-for="Mother_Name" class="text-danger"></span>
+        <label asp-for="HoTenMe" class="control-label">Họ tên mẹ</label>
+        <input asp-for="HoTenMe" class="form-control" />
+        <span asp-validation-for="HoTenMe" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="Mother_Birthdate" class="control-label">Ngày sinh</label>
-        <input asp-for="Mother_Birthdate" class="form-control" />
-        <span asp-validation-for="Mother_Birthdate" class="text-danger"></span>
+        <label asp-for="NgaySinhMe" class="control-label">Ngày sinh</label>
+        <input asp-for="NgaySinhMe" class="form-control" />
+        <span asp-validation-for="NgaySinhMe" class="text-danger"></span>
     </div>
     <hr />
 
     <h2 class="title">LÝ DO CẤP HỘ CHIẾU</h2>
     <div class="form-group">
-        <label asp-for="Content" class="control-label">Nội dung đề nghị</label>
-        <input asp-for="Content" class="form-control" />
-        <span asp-validation-for="Content" class="text-danger"></span>
+        <label asp-for="NoiDungDeNghi" class="control-label">Nội dung đề nghị</label>
+        <input asp-for="NoiDungDeNghi" class="form-control" />
+        <span asp-validation-for="NoiDungDeNghi" class="text-danger"></span>
     </div>
     <hr />
 
     <h2 class="title">NƠI TIẾP NHẬN HỒ SƠ ĐĂNG KÝ</h2>
     <div class="form-group">
-        <label asp-for="Place_of_receiving_documents" class="control-label">Nơi tiếp nhận hồ sơ</label>
-        <input asp-for="Place_of_receiving_documents" class="form-control" />
-        <span asp-validation-for="Place_of_receiving_documents" class="text-danger"></span>
+        <label asp-for="NoiTiepNhanHS" class="control-label">Nơi tiếp nhận hồ sơ</label>
+        <input asp-for="NoiTiepNhanHS" class="form-control" />
+        <span asp-validation-for="NoiTiepNhanHS" class="text-danger"></span>
     </div>
     <br />
 

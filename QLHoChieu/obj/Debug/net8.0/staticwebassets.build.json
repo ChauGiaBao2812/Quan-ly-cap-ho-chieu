@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Av/R3mpUYiOQ75xbtubbEwQL+rI5aSWHnw1xKC4U36w=",
+  "Hash": "0iMrXeDqRh8WKuD9Ot34YNhZLk1etwrky7mHEjE5svI=",
   "Source": "QLHoChieu",
   "BasePath": "_content/QLHoChieu",
   "Mode": "Default",
@@ -325,8 +325,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "fr7q2aak1r",
-      "Integrity": "y/Ngd8W21UpuCUhEqGbUKDEqFnNfTjAfb24GhJJGUyM=",
+      "Fingerprint": "itbdovvrxx",
+      "Integrity": "6t6crpVoUrKg6J22BdZf7ShP8DD2KdeZi950HOis+Lg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -2515,7 +2515,7 @@
       ]
     },
     {
-      "Route": "js/site.fr7q2aak1r.js",
+      "Route": "js/site.itbdovvrxx.js",
       "AssetFile": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2525,7 +2525,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "227"
+          "Value": "909"
         },
         {
           "Name": "Content-Type",
@@ -2533,11 +2533,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"y/Ngd8W21UpuCUhEqGbUKDEqFnNfTjAfb24GhJJGUyM=\""
+          "Value": "\"6t6crpVoUrKg6J22BdZf7ShP8DD2KdeZi950HOis+Lg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 13:59:47 GMT"
+          "Value": "Thu, 15 May 2025 02:20:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2547,7 +2547,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "fr7q2aak1r"
+          "Value": "itbdovvrxx"
         },
         {
           "Name": "label",
@@ -2555,7 +2555,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-y/Ngd8W21UpuCUhEqGbUKDEqFnNfTjAfb24GhJJGUyM="
+          "Value": "sha256-6t6crpVoUrKg6J22BdZf7ShP8DD2KdeZi950HOis+Lg="
         }
       ]
     },
@@ -2570,7 +2570,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "227"
+          "Value": "909"
         },
         {
           "Name": "Content-Type",
@@ -2578,11 +2578,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"y/Ngd8W21UpuCUhEqGbUKDEqFnNfTjAfb24GhJJGUyM=\""
+          "Value": "\"6t6crpVoUrKg6J22BdZf7ShP8DD2KdeZi950HOis+Lg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 13:59:47 GMT"
+          "Value": "Thu, 15 May 2025 02:20:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2592,7 +2592,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-y/Ngd8W21UpuCUhEqGbUKDEqFnNfTjAfb24GhJJGUyM="
+          "Value": "sha256-6t6crpVoUrKg6J22BdZf7ShP8DD2KdeZi950HOis+Lg="
         }
       ]
     },

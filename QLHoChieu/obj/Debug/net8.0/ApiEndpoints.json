@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "ContainingType": "QLHoChieu.Controllers.PassportDataController",
+    "Method": "Index",
+    "RelativePath": "api/PassportData",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QLHoChieu.Controllers.PassportDataController",
+    "Method": "Register",
+    "RelativePath": "api/PassportData/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "QLHoChieu.Models.PassportData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QLHoChieu.Controllers.ResidentDataController",
+    "Method": "AddResident",
+    "RelativePath": "api/ResidentData/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resident",
+        "Type": "QLHoChieu.Models.ResidentData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
