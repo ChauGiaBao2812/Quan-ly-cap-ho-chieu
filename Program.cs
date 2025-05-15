@@ -21,17 +21,7 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapControllerRoute(
-    name: "login",
-    pattern: "{controller=Account}/{action=Login}/{id?}");
-app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-app.MapControllerRoute(
-    name: "HoSoXT",
-    pattern: "{controller=HoSoXT}/{action=HoSoXT}/{id?}");
-
-app.MapControllerRoute(
-    name: "HoSoXD",
-    pattern: "{controller=HoSoXD}/{action=HoSoXD}/{id?}");
 
 app.Run();
