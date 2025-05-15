@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using QLHoChieu.Data;
 using QLHoChieu.Models;
 using QLHoChieu.Models.ViewModels;
+using QLHoChieu.Helpers;
 
 namespace QLHoChieu.Controllers
 {
@@ -25,24 +26,36 @@ namespace QLHoChieu.Controllers
         // POST: TaiKhoan/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(TaiKhoanVM model)
+        public async Task<IActionResult> Create(RegisterAccountVM model)
         {
             if (ModelState.IsValid)
             {
-                // Hash password
-                byte[] hashedPassword = HashPassword(model.MatKhau);
+                var hashedPassword = HashPassword(model.Password);
 
-                // Map ViewModel to Entity
-                var entity = new TaiKhoan
+                var newAccount = new TaiKhoan
                 {
                     Username = model.Username,
                     MatKhau = hashedPassword
                 };
 
-                _context.TaiKhoans.Add(entity);
+                var newUser = new User
+                {
+                    UserID = Guid.NewGuid().ToString().Substring(0, 20),
+                    Username = model.Username,
+                    HoTen = AesHelper.Encrypt(model.HoTen),
+                    GioiTinh = model.GioiTinh,
+                    NgaySinh = model.NgaySinh,
+                    QueQuan = model.QueQuan,
+                    SDT = AesHelper.Encrypt(model.SDT),
+                    Email = AesHelper.Encrypt(model.Email),
+                    ChucVu = model.ChucVu
+                };
+
+                _context.TaiKhoans.Add(newAccount);
+                _context.Users.Add(newUser);
                 await _context.SaveChangesAsync();
 
-                return RedirectToAction(nameof(Index)); // or wherever you want to redirect
+                return RedirectToAction("Index"); // or somewhere else
             }
 
             return View(model);

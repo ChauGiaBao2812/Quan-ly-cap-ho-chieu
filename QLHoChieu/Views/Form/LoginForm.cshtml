@@ -1,4 +1,4 @@
-﻿@model QLHoChieu.Models.LoginForm
+﻿@model QLHoChieu.Models.ViewModels.TaiKhoanVM
 
 @{
     Layout = null;
@@ -17,9 +17,9 @@
                 <span asp-validation-for="Username" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Password" class="control-label"></label>
-                <input asp-for="Password" class="form-control" />
-                <span asp-validation-for="Password" class="text-danger"></span>
+                <label asp-for="MatKhau" class="control-label"></label>
+                <input asp-for="MatKhau" class="form-control" type="password" />
+                <span asp-validation-for="MatKhau" class="text-danger"></span>
             </div>
             <div class="btn">
                 <input type="submit" value="Submit" class="btn btn-primary" />

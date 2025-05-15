@@ -1,12 +1,14 @@
-﻿@model QLHoChieu.Models.ViewModels.TaiKhoanVM
+﻿@model QLHoChieu.Models.ViewModels.RegisterAccountVM
 
 @{
     ViewData["Title"] = "Create Account";
 }
 
-<h2>Create Account</h2>
+<h2>Create New Account</h2>
 
 <form asp-action="Create" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
     <div class="form-group">
         <label asp-for="Username"></label>
         <input asp-for="Username" class="form-control" />
@@ -14,9 +16,63 @@
     </div>
 
     <div class="form-group">
-        <label asp-for="MatKhau">Password</label>
-        <input asp-for="MatKhau" type="password" class="form-control" />
-        <span asp-validation-for="MatKhau" class="text-danger"></span>
+        <label asp-for="Password"></label>
+        <input asp-for="Password" class="form-control" type="password" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="HoTen"></label>
+        <input asp-for="HoTen" class="form-control" />
+        <span asp-validation-for="HoTen" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="GioiTinh"></label>
+        <select asp-for="GioiTinh" class="form-control">
+            <option value="">-- Select Gender --</option>
+            <option>Nam</option>
+            <option>Nữ</option>
+            <option>Khác</option>
+        </select>
+        <span asp-validation-for="GioiTinh" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="NgaySinh"></label>
+        <input asp-for="NgaySinh" class="form-control" type="date" />
+        <span asp-validation-for="NgaySinh" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="QueQuan"></label>
+        <input asp-for="QueQuan" class="form-control" />
+        <span asp-validation-for="QueQuan" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="SDT"></label>
+        <input asp-for="SDT" class="form-control" />
+        <span asp-validation-for="SDT" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ChucVu"></label>
+        <select asp-for="ChucVu" class="form-control">
+            <option value="">-- Chọn chức vụ --</option>
+            <option value="XuLy">Xử lý</option>
+            <option value="GiamSat">Giám sát</option>
+            <option value="XetDuyen">Xét duyệt</option>
+            <option value="LuuTru">Lưu trữ</option>
+            <option value="XacThuc">Xác thực</option>
+        </select>
+        <span asp-validation-for="ChucVu" class="text-danger"></span>
     </div>
 
     <button type="submit" class="btn btn-primary">Create</button>
