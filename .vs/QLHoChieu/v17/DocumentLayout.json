@@ -7,12 +7,36 @@
       "RelativeMoniker": "D:0:0:{61FD7EBD-4406-4BF0-B945-2C3C89ABF9FB}|QLHoChieu\\QLHoChieu.csproj|solutionrelative:qlhochieu\\controllers\\formcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{61FD7EBD-4406-4BF0-B945-2C3C89ABF9FB}|QLHoChieu\\QLHoChieu.csproj|c:\\users\\windows\\desktop\\.net\\qlhochieu\\qlhochieu\\models\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61FD7EBD-4406-4BF0-B945-2C3C89ABF9FB}|QLHoChieu\\QLHoChieu.csproj|solutionrelative:qlhochieu\\models\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61FD7EBD-4406-4BF0-B945-2C3C89ABF9FB}|QLHoChieu\\QLHoChieu.csproj|c:\\users\\windows\\desktop\\.net\\qlhochieu\\qlhochieu\\views\\form\\loginform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{61FD7EBD-4406-4BF0-B945-2C3C89ABF9FB}|QLHoChieu\\QLHoChieu.csproj|solutionrelative:qlhochieu\\views\\form\\loginform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61FD7EBD-4406-4BF0-B945-2C3C89ABF9FB}|QLHoChieu\\QLHoChieu.csproj|c:\\users\\windows\\desktop\\.net\\qlhochieu\\qlhochieu\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{61FD7EBD-4406-4BF0-B945-2C3C89ABF9FB}|QLHoChieu\\QLHoChieu.csproj|solutionrelative:qlhochieu\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61FD7EBD-4406-4BF0-B945-2C3C89ABF9FB}|QLHoChieu\\QLHoChieu.csproj|c:\\users\\windows\\desktop\\.net\\qlhochieu\\qlhochieu\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61FD7EBD-4406-4BF0-B945-2C3C89ABF9FB}|QLHoChieu\\QLHoChieu.csproj|solutionrelative:qlhochieu\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{61FD7EBD-4406-4BF0-B945-2C3C89ABF9FB}|QLHoChieu\\QLHoChieu.csproj|c:\\users\\windows\\desktop\\.net\\qlhochieu\\qlhochieu\\views\\form\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{61FD7EBD-4406-4BF0-B945-2C3C89ABF9FB}|QLHoChieu\\QLHoChieu.csproj|solutionrelative:qlhochieu\\views\\form\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{61FD7EBD-4406-4BF0-B945-2C3C89ABF9FB}|QLHoChieu\\QLHoChieu.csproj|c:\\users\\windows\\desktop\\.net\\qlhochieu\\qlhochieu\\models\\viewmodels\\passportsystemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61FD7EBD-4406-4BF0-B945-2C3C89ABF9FB}|QLHoChieu\\QLHoChieu.csproj|solutionrelative:qlhochieu\\models\\viewmodels\\passportsystemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61FD7EBD-4406-4BF0-B945-2C3C89ABF9FB}|QLHoChieu\\QLHoChieu.csproj|c:\\users\\windows\\desktop\\.net\\qlhochieu\\qlhochieu\\models\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61FD7EBD-4406-4BF0-B945-2C3C89ABF9FB}|QLHoChieu\\QLHoChieu.csproj|solutionrelative:qlhochieu\\models\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61FD7EBD-4406-4BF0-B945-2C3C89ABF9FB}|QLHoChieu\\QLHoChieu.csproj|c:\\users\\windows\\desktop\\.net\\qlhochieu\\qlhochieu\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61FD7EBD-4406-4BF0-B945-2C3C89ABF9FB}|QLHoChieu\\QLHoChieu.csproj|solutionrelative:qlhochieu\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{61FD7EBD-4406-4BF0-B945-2C3C89ABF9FB}|QLHoChieu\\QLHoChieu.csproj|c:\\users\\windows\\desktop\\.net\\qlhochieu\\qlhochieu\\controllers\\residentdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,14 +79,6 @@
       "RelativeMoniker": "D:0:0:{61FD7EBD-4406-4BF0-B945-2C3C89ABF9FB}|QLHoChieu\\QLHoChieu.csproj|solutionrelative:qlhochieu\\models\\luutru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61FD7EBD-4406-4BF0-B945-2C3C89ABF9FB}|QLHoChieu\\QLHoChieu.csproj|c:\\users\\windows\\desktop\\.net\\qlhochieu\\qlhochieu\\models\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61FD7EBD-4406-4BF0-B945-2C3C89ABF9FB}|QLHoChieu\\QLHoChieu.csproj|solutionrelative:qlhochieu\\models\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61FD7EBD-4406-4BF0-B945-2C3C89ABF9FB}|QLHoChieu\\QLHoChieu.csproj|c:\\users\\windows\\desktop\\.net\\qlhochieu\\qlhochieu\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61FD7EBD-4406-4BF0-B945-2C3C89ABF9FB}|QLHoChieu\\QLHoChieu.csproj|solutionrelative:qlhochieu\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{61FD7EBD-4406-4BF0-B945-2C3C89ABF9FB}|QLHoChieu\\QLHoChieu.csproj|c:\\users\\windows\\desktop\\.net\\qlhochieu\\qlhochieu\\models\\xuly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61FD7EBD-4406-4BF0-B945-2C3C89ABF9FB}|QLHoChieu\\QLHoChieu.csproj|solutionrelative:qlhochieu\\models\\xuly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -71,16 +87,8 @@
       "RelativeMoniker": "D:0:0:{61FD7EBD-4406-4BF0-B945-2C3C89ABF9FB}|QLHoChieu\\QLHoChieu.csproj|solutionrelative:qlhochieu\\migrations\\20250515012010_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61FD7EBD-4406-4BF0-B945-2C3C89ABF9FB}|QLHoChieu\\QLHoChieu.csproj|c:\\users\\windows\\desktop\\.net\\qlhochieu\\qlhochieu\\views\\form\\loginform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{61FD7EBD-4406-4BF0-B945-2C3C89ABF9FB}|QLHoChieu\\QLHoChieu.csproj|solutionrelative:qlhochieu\\views\\form\\loginform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{61FD7EBD-4406-4BF0-B945-2C3C89ABF9FB}|QLHoChieu\\QLHoChieu.csproj|c:\\users\\windows\\desktop\\.net\\qlhochieu\\qlhochieu\\wwwroot\\css\\form.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{61FD7EBD-4406-4BF0-B945-2C3C89ABF9FB}|QLHoChieu\\QLHoChieu.csproj|solutionrelative:qlhochieu\\wwwroot\\css\\form.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61FD7EBD-4406-4BF0-B945-2C3C89ABF9FB}|QLHoChieu\\QLHoChieu.csproj|c:\\users\\windows\\desktop\\.net\\qlhochieu\\qlhochieu\\models\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61FD7EBD-4406-4BF0-B945-2C3C89ABF9FB}|QLHoChieu\\QLHoChieu.csproj|solutionrelative:qlhochieu\\models\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{61FD7EBD-4406-4BF0-B945-2C3C89ABF9FB}|QLHoChieu\\QLHoChieu.csproj|c:\\users\\windows\\desktop\\.net\\qlhochieu\\qlhochieu\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -98,71 +106,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form.cshtml",
-              "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Views\\Form\\Form.cshtml",
-              "RelativeDocumentMoniker": "QLHoChieu\\Views\\Form\\Form.cshtml",
-              "ToolTip": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Views\\Form\\Form.cshtml",
-              "RelativeToolTip": "QLHoChieu\\Views\\Form\\Form.cshtml",
-              "ViewState": "AgIAAHgBAAAAAAAAAAAAAAoAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T02:56:38.834Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "site.js",
-              "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "QLHoChieu\\wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\wwwroot\\js\\site.js",
-              "RelativeToolTip": "QLHoChieu\\wwwroot\\js\\site.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-15T01:51:25.206Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ResidentDataController.cs",
-              "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Controllers\\ResidentDataController.cs",
-              "RelativeDocumentMoniker": "QLHoChieu\\Controllers\\ResidentDataController.cs",
-              "ToolTip": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Controllers\\ResidentDataController.cs",
-              "RelativeToolTip": "QLHoChieu\\Controllers\\ResidentDataController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T01:41:21.173Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "QLHoChieu\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "QLHoChieu\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Views\\Admin\\Create.cshtml",
+              "RelativeDocumentMoniker": "QLHoChieu\\Views\\Admin\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Views\\Admin\\Create.cshtml",
+              "RelativeToolTip": "QLHoChieu\\Views\\Admin\\Create.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwBwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-15T00:18:34.553Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\appsettings.json",
-              "RelativeDocumentMoniker": "QLHoChieu\\appsettings.json",
-              "ToolTip": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\appsettings.json",
-              "RelativeToolTip": "QLHoChieu\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-15T01:16:14.339Z",
+              "WhenOpened": "2025-05-15T03:47:32.293Z",
               "EditorCaption": ""
             },
             {
@@ -173,144 +129,27 @@
               "RelativeDocumentMoniker": "QLHoChieu\\Controllers\\FormController.cs",
               "ToolTip": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Controllers\\FormController.cs",
               "RelativeToolTip": "QLHoChieu\\Controllers\\FormController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-18T02:36:51.302Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "PassportSystemVM.cs",
               "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Models\\ViewModels\\PassportSystemVM.cs",
               "RelativeDocumentMoniker": "QLHoChieu\\Models\\ViewModels\\PassportSystemVM.cs",
               "ToolTip": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Models\\ViewModels\\PassportSystemVM.cs",
               "RelativeToolTip": "QLHoChieu\\Models\\ViewModels\\PassportSystemVM.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAWwHQAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAEEBAAAAAAAAAAAuwCcBAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-15T02:16:06.609Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PassportData.cs",
-              "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Models\\PassportData.cs",
-              "RelativeDocumentMoniker": "QLHoChieu\\Models\\PassportData.cs",
-              "ToolTip": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Models\\PassportData.cs",
-              "RelativeToolTip": "QLHoChieu\\Models\\PassportData.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAIwHUAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T00:54:15.887Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ResidentData.cs",
-              "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Models\\ResidentData.cs",
-              "RelativeDocumentMoniker": "QLHoChieu\\Models\\ResidentData.cs",
-              "ToolTip": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Models\\ResidentData.cs",
-              "RelativeToolTip": "QLHoChieu\\Models\\ResidentData.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAA8wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T00:53:03.472Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PassportDataController.cs",
-              "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Controllers\\PassportDataController.cs",
-              "RelativeDocumentMoniker": "QLHoChieu\\Controllers\\PassportDataController.cs",
-              "ToolTip": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Controllers\\PassportDataController.cs",
-              "RelativeToolTip": "QLHoChieu\\Controllers\\PassportDataController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAiwB8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T01:32:23.879Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PassportDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Data\\PassportDbContext.cs",
-              "RelativeDocumentMoniker": "QLHoChieu\\Data\\PassportDbContext.cs",
-              "ToolTip": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Data\\PassportDbContext.cs",
-              "RelativeToolTip": "QLHoChieu\\Data\\PassportDbContext.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAzwA8AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T01:07:04.298Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Program.cs",
-              "RelativeDocumentMoniker": "QLHoChieu\\Program.cs",
-              "ToolTip": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Program.cs",
-              "RelativeToolTip": "QLHoChieu\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T03:09:05.095Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "LuuTru.cs",
-              "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Models\\LuuTru.cs",
-              "RelativeDocumentMoniker": "QLHoChieu\\Models\\LuuTru.cs",
-              "ToolTip": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Models\\LuuTru.cs",
-              "RelativeToolTip": "QLHoChieu\\Models\\LuuTru.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T01:02:02.51Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "XuLy.cs",
-              "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Models\\XuLy.cs",
-              "RelativeDocumentMoniker": "QLHoChieu\\Models\\XuLy.cs",
-              "ToolTip": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Models\\XuLy.cs",
-              "RelativeToolTip": "QLHoChieu\\Models\\XuLy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T00:58:30.499Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "20250515012010_init.cs",
-              "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Migrations\\20250515012010_init.cs",
-              "RelativeDocumentMoniker": "QLHoChieu\\Migrations\\20250515012010_init.cs",
-              "ToolTip": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Migrations\\20250515012010_init.cs",
-              "RelativeToolTip": "QLHoChieu\\Migrations\\20250515012010_init.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T01:20:11.034Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Models\\User.cs",
-              "RelativeDocumentMoniker": "QLHoChieu\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Models\\User.cs",
-              "RelativeToolTip": "QLHoChieu\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T00:36:53.182Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 7,
               "Title": "TaiKhoan.cs",
               "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Models\\TaiKhoan.cs",
               "RelativeDocumentMoniker": "QLHoChieu\\Models\\TaiKhoan.cs",
@@ -323,7 +162,216 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginForm.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Views\\Form\\LoginForm.cshtml",
+              "RelativeDocumentMoniker": "QLHoChieu\\Views\\Form\\LoginForm.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Views\\Form\\LoginForm.cshtml",
+              "RelativeToolTip": "QLHoChieu\\Views\\Form\\LoginForm.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T02:45:04.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Models\\LoginForm.cs",
+              "RelativeDocumentMoniker": "QLHoChieu\\Models\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Models\\LoginForm.cs",
+              "RelativeToolTip": "QLHoChieu\\Models\\LoginForm.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T02:51:54.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\appsettings.json",
+              "RelativeDocumentMoniker": "QLHoChieu\\appsettings.json",
+              "ToolTip": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\appsettings.json",
+              "RelativeToolTip": "QLHoChieu\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-15T01:16:14.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "QLHoChieu\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "QLHoChieu\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T03:31:35.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Views\\Form\\Form.cshtml",
+              "RelativeDocumentMoniker": "QLHoChieu\\Views\\Form\\Form.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Views\\Form\\Form.cshtml",
+              "RelativeToolTip": "QLHoChieu\\Views\\Form\\Form.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T02:56:38.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "QLHoChieu\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "QLHoChieu\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-15T00:18:34.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ResidentDataController.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Controllers\\ResidentDataController.cs",
+              "RelativeDocumentMoniker": "QLHoChieu\\Controllers\\ResidentDataController.cs",
+              "ToolTip": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Controllers\\ResidentDataController.cs",
+              "RelativeToolTip": "QLHoChieu\\Controllers\\ResidentDataController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T01:41:21.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "QLHoChieu\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "QLHoChieu\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-15T01:51:25.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Models\\User.cs",
+              "RelativeDocumentMoniker": "QLHoChieu\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Models\\User.cs",
+              "RelativeToolTip": "QLHoChieu\\Models\\User.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwC4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T00:36:53.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PassportData.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Models\\PassportData.cs",
+              "RelativeDocumentMoniker": "QLHoChieu\\Models\\PassportData.cs",
+              "ToolTip": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Models\\PassportData.cs",
+              "RelativeToolTip": "QLHoChieu\\Models\\PassportData.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAIwHUAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T00:54:15.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ResidentData.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Models\\ResidentData.cs",
+              "RelativeDocumentMoniker": "QLHoChieu\\Models\\ResidentData.cs",
+              "ToolTip": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Models\\ResidentData.cs",
+              "RelativeToolTip": "QLHoChieu\\Models\\ResidentData.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAA8wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T00:53:03.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PassportDataController.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Controllers\\PassportDataController.cs",
+              "RelativeDocumentMoniker": "QLHoChieu\\Controllers\\PassportDataController.cs",
+              "ToolTip": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Controllers\\PassportDataController.cs",
+              "RelativeToolTip": "QLHoChieu\\Controllers\\PassportDataController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAiwB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T01:32:23.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PassportDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Data\\PassportDbContext.cs",
+              "RelativeDocumentMoniker": "QLHoChieu\\Data\\PassportDbContext.cs",
+              "ToolTip": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Data\\PassportDbContext.cs",
+              "RelativeToolTip": "QLHoChieu\\Data\\PassportDbContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T01:07:04.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Program.cs",
+              "RelativeDocumentMoniker": "QLHoChieu\\Program.cs",
+              "ToolTip": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Program.cs",
+              "RelativeToolTip": "QLHoChieu\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T03:09:05.095Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 18,
+              "Title": "LuuTru.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Models\\LuuTru.cs",
+              "RelativeDocumentMoniker": "QLHoChieu\\Models\\LuuTru.cs",
+              "ToolTip": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Models\\LuuTru.cs",
+              "RelativeToolTip": "QLHoChieu\\Models\\LuuTru.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T01:02:02.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "XuLy.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Models\\XuLy.cs",
+              "RelativeDocumentMoniker": "QLHoChieu\\Models\\XuLy.cs",
+              "ToolTip": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Models\\XuLy.cs",
+              "RelativeToolTip": "QLHoChieu\\Models\\XuLy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T00:58:30.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20250515012010_init.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Migrations\\20250515012010_init.cs",
+              "RelativeDocumentMoniker": "QLHoChieu\\Migrations\\20250515012010_init.cs",
+              "ToolTip": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Migrations\\20250515012010_init.cs",
+              "RelativeToolTip": "QLHoChieu\\Migrations\\20250515012010_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T01:20:11.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "Form.css",
               "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\wwwroot\\css\\Form.css",
               "RelativeDocumentMoniker": "QLHoChieu\\wwwroot\\css\\Form.css",
@@ -331,38 +379,11 @@
               "RelativeToolTip": "QLHoChieu\\wwwroot\\css\\Form.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-18T02:57:24.392Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T02:57:24.392Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "LoginForm.cs",
-              "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Models\\LoginForm.cs",
-              "RelativeDocumentMoniker": "QLHoChieu\\Models\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Models\\LoginForm.cs",
-              "RelativeToolTip": "QLHoChieu\\Models\\LoginForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T02:51:54.838Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "LoginForm.cshtml",
-              "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Views\\Form\\LoginForm.cshtml",
-              "RelativeDocumentMoniker": "QLHoChieu\\Views\\Form\\LoginForm.cshtml",
-              "ToolTip": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Views\\Form\\LoginForm.cshtml",
-              "RelativeToolTip": "QLHoChieu\\Views\\Form\\LoginForm.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T02:45:04.149Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "QLHoChieu\\Properties\\launchSettings.json",
@@ -370,12 +391,11 @@
               "RelativeToolTip": "QLHoChieu\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-18T02:40:50.816Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T02:40:50.816Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Windows\\Desktop\\.NET\\QLHoChieu\\QLHoChieu\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "QLHoChieu\\Controllers\\HomeController.cs",
@@ -383,8 +403,7 @@
               "RelativeToolTip": "QLHoChieu\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T02:36:19.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T02:36:19.758Z"
             }
           ]
         }

@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace QLHoChieu.Models.ViewModels
 {
-    public class TaiKhoan
+    public class TaiKhoanVM
     {
         [Key]
         [StringLength(20)]
@@ -15,7 +15,7 @@ namespace QLHoChieu.Models.ViewModels
         public string MatKhau { get; set; }
     }
 
-    public class User
+    public class UserVM
     {
         [Key]
         [StringLength(20)]
@@ -59,7 +59,7 @@ namespace QLHoChieu.Models.ViewModels
         public TaiKhoan TaiKhoan { get; set; }
     }
 
-    public class ResidentData
+    public class ResidentDataVM
     {
         [Key]
         [StringLength(20)]
@@ -145,7 +145,7 @@ namespace QLHoChieu.Models.ViewModels
         public DateTime? NgaySinhMe { get; set; }
     }
 
-    public class PassportData
+    public class PassportDataVM
     {
         [Key]
         [StringLength(20)]
@@ -258,7 +258,7 @@ namespace QLHoChieu.Models.ViewModels
         public ResidentData ResidentData { get; set; }
     }
 
-    public class XuLy
+    public class XuLyVM
     {
         [Key]
         public int XuLyID { get; set; }
@@ -293,7 +293,7 @@ namespace QLHoChieu.Models.ViewModels
         public User User { get; set; }
     }
 
-    public class LuuTru
+    public class LuuTruVM
     {
         [Key]
         [StringLength(20)]
